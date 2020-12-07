@@ -1,0 +1,274 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\t-nCqy60NgiE8YyYy-zxDVTOZSdT8Yhe7xkl5_zkCGg=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\GEZt6Scpn6rwPpirp1Z3y6FbWuFKHrPg0XkHtLBY8Xw=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\joXPE5BNxiRZdPOAPnpx7xVKf5MS_3BknPysKc0rA0I=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\9A0GHW8Hd3n2cvJ9nOi0QymmlFWFS345hskSFudH07A=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\APJhF7Cne1YtXAEDjYtS_NC54Yt8Uy4W364YV6GfInE=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\WrqkYD6j1T5zrV4VG5Y38JTbWM6uOfFckSGWIrM36Rk=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.CSharp.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\paCbpc5lNPNHDfM5Bd-nPBIF2T6A1yDvMitWWqg0ZVI=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\U9NwqZADwnv-whTtj_Xln5lFZr3e2lbH2PD9-4NY9bQ=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.EntityFrameworkCore.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UPjWlxZ4-NExlzQynaeCg_ztp6dFpeCW3HBdvP3l0cg=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Relational.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yrKI-8ZQFZVqwO1F4kW1CqUWFCz0sod_1Kss4rBwnas=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Caching.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\P_kLU04BvZ8zpiodnHtwGmH3Kdfo-5eiYIkBQSR5K-0=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Caching.Memory.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Caching.Memory.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\sSwI0X6o0WKfp7EvMeXa6MAcSFJTE61t7shWE5l-ZDY=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BabrzXKrKbIWRJwRRL_UW2nyoKdOQAkr5Gz6USQN800=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mqfQywM64cJBfTHzVNQs88nNHhEhtQkwS6n3ujMxTKs=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vkcl3xKw42DXuJ_P6e_RbJ1vFVqNQjXBGrjDKFSjH58=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XT0LNC1Bk2QiPBIC6Juxv1czIxT6rNzKx540n_FNQew=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\IGp-iHePnl4v9feZsvIUbCBfURs1E7Krj-e7gkONva8=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2sv3Prtyx8owitXzwk500UNpLzh8ocosPah6zb80hls=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zSaJztMgMz3F_m98XYDkPnGPexLjk_F-awSzc5JOAjs=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\y4zD_YJVp30uQwyoIZPNScIN3PZYVBK-gxzWoUownB8=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\rV6uuJsjnRprYyNYDKHBeROe4HZtiyEppr4_VxWBK_s=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\arYyW9w3TBVJTBcLdxK5XD1I90nA_rbhwLS6BiH6AWc=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Y0NNZuvBbrm5rENmGvtXZle56YliXKxWNjPlYM1AZ1E=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Mono.Security.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Security.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\DXzjVPPNNGgaabQJebY17JADmEAHDmS2QzO8ESK06kc=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\lx5uY2T73-_kP4XtOhMV8Zbopan17BsI0JQvSj-7b9I=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\netstandard.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/netstandard.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\bgcyFwlUxUADsXfMUpstY0OA1EgnibSD53mBJvxkllM=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Npgsql.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Npgsql.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2GDSzsUpPDQXdCsuEwnNwpABBdDpniQ0XmIqx-Sj0m4=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Npgsql.EntityFrameworkCore.PostgreSQL.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\IzFLcOfluBQul5sIgpPvVKkWSz4cNDS0Mvvnt6eNpFg=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\PowerScheduler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/PowerScheduler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UMrHWPLS3Ilrr-BveitLFsFVQVzWhMrS-ZEhmLD8HWg=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\PowerScheduler.Shared.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/PowerScheduler.Shared.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\7JgIaAE_um-StrTzm1nACDRElbHqqKhRw4qdOo-lM8Y=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\Radzen.Blazor.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Radzen.Blazor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\eSGB5ls4KpLCACpRxp7wcfYtCmQIyP0qogB81vzol40=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Collections.Immutable.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Immutable.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\_ijLt6O6GRRNPW-ZOIGy-5J_LYf6cZOAw_zglzeuTmA=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1q2swZdVVRBnivsxkpzNkO6DYWQeExoPF19iNOLXSQM=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\a6CBEhp8Dkw_GJ0_sY8oIERGEWPj63KInIZaNVd7luw=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Data.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Ca13RMSaCX11KZ2fTFgR0AJ2JLBtErHLmn6pzBOqM98=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Diagnostics.DiagnosticSource.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ihjTBHk85Mg81fNjzZu16-LVuaHhxPPrXmuAyztOa50=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\JJpfJq-dy-3tREryLdiQAdokiE1Sz7X3xAi4OVmmRLY=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Linq.Dynamic.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Dynamic.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\GHfkoH2LeBp10zrDW-NMx99mdIaaZdQmr9oqySdbaG4=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6TH-wTb-5bCCaQuJJw5pvUJ1bRwXfm7owGr1T8h4Tzc=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\H4hNR16hBo1gFiJJH7qk4YAfsU44jIMbbEPX_7Yi1H8=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Numerics.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\th4yQ20yQi3wAQ4cXk41sezMQgXDB99wFlCKRhs7gHE=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Oc9-BHp0S1HSErTMyXcXCDI9YuMzIn8Xk45UYV0e5iU=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1aFwkclURQnyCSpBtAf0tMOI-Jykiy9ics1322skMSg=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\V53GTHmcnKuiMKTEXRvwsceSCAOJnpSbj88WqpqWzjk=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Threading.Channels.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Channels.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\LN6TPxk-a_w5R8A0NX4SC4HPYQ3_Kp6izqqON6vki4s=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Transactions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Transactions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\qHKUF8P5NzPvD1DFFNH6RtD7GJU1SqlXngnW2Z5nUgw=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\eqGgFP1ClG3NzKonc0f4UQB98RRD86NawrgSeyZa4i4=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.Linq.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.Linq.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\JF83SvPkzhCjjg7CnQWiuhKU7stigE5gI9iJq4dVguY=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "C:\\Users\\Cole Bright\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "C:\\Users\\Cole Bright\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "C:\\Users\\Cole Bright\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "C:\\Users\\Cole Bright\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.1\\tools\\blazor\\blazor.webassembly.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ZN-x5QMb8ntjoI48TJP-SIfvPGwoc0pdLqY2n9h5xes=.hash",
+      "Source": "C:\\Users\\Cole Bright\\source\\repos\\PowerScheduler\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
+    }
+  ]
+}

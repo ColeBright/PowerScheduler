@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="PowerScheduler">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>

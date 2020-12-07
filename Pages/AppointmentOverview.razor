@@ -1,0 +1,163 @@
+﻿@page "/appointmentoverview"
+@inject ILoggerFactory LoggerFactory
+
+
+<style>
+    :root {
+        --primary-light: #8abdff;
+        --primary: #6d5dfc;
+        --primary-dark: #5b0eeb;
+        --white: #FFFFFF;
+        --greyLight-1: #E4EBF5;
+        --greyLight-2: #c8d0e7;
+        --greyLight-3: #bec8e4;
+        --greyDark: #9baacf;
+    }
+
+    body {
+        background: var(--greyLight-1);
+    }
+
+    .rz-scheduler {
+        height: 100%;
+        border-radius: 3rem;
+        box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
+        padding: 4rem;
+        display: flex;
+        background: var(--greyLight-1);
+    }
+
+    .rz-card {
+        height: 100%;
+        border-radius: 3rem;
+        box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
+        background: var(--greyLight-1);
+        padding: 4rem;
+        display: flex;
+    }
+
+    .ui-button {
+        border-radius: 1rem;
+        box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+        justify-self: center;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        background: var(--greyLight-1);
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        color: var(--greyDark);
+    }
+
+        .ui-button:hover {
+            color: var(--primary);
+        }
+
+        .ui-button:active {
+            box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+        }
+
+        .ui-button p {
+            font-size: 1.6rem;
+        }
+
+    .athleteDetails {
+        background-image: -webkit-linear-gradient(90deg, #8141D1 1.79%, #5628D9 98.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: linear-gradient(90deg, #8141D1 1.79%, #5628D9 98.81%);
+    }
+</style>
+
+<div class="text-center"><h2>Power Scheduler</h2></div>
+<div class="row p-2">
+    <h3></h3>
+    <input @bind-value="SearchTerm" @bind-value:event="oninput" placeholder="Search For Athletes Here" id="nameSearch" type="search" class="beans" />
+</div>
+<div class="justify-ce">
+
+    <ul>
+        @if(!String.IsNullOrWhiteSpace(SearchTerm))
+        @foreach (Athlete athlete in FilteredAthletes)
+        {
+
+        <li>@athlete.FullName</li>
+        }
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xl-6">
+        <RadzenScheduler Style="height: 80%;" @ref="@scheduler" Data="@evnts" TItem="EventAppt" StartProperty="Start" EndProperty="End" TextProperty="Text" AppointmentSelect="@OnAppointmentSelect" SlotSelect="@OnSlotSelectAsync">
+            <RadzenMonthView />
+        </RadzenScheduler>
+        <button class="ui-button p-2 mr-1" @onclick="@AddAppointmentAsync">Add New Appointment</button>
+        <button class="ui-button p-2 mr-1" @onclick="@GenerateReport">Generate Report</button>  
+    </div>
+    <div class="col-xl-6">
+        <RadzenCard>
+            <select @bind="boundAthId">
+                @foreach (var athlete in Athletes)
+            {
+                <option value="@athlete.Id">@athlete.FullName</option>
+            }
+            </select>
+            <div>
+                Athlete
+                <b>@currentAth.FullName</b>
+            </div>
+
+            <div>
+                Appointment Times:
+
+                @foreach (Appointment appts in currentAth.Appointments)
+                    {
+                <b>@appts.Start</b>
+                    }
+            </div>
+
+            <RadzenChart @ref="barChart" Style="width: 90%" ColorScheme="@colorScheme">
+                <RadzenColumnSeries Stroke="red" Data="@makeBarGraphHappy" TItem="Athlete" Title="Bench" ValueProperty="Bench" />
+                <RadzenColumnOptions Radius="5" />
+                <RadzenValueAxis Min="0" Max="600" Step="100">
+                    <RadzenCategoryAxis>
+                        <RadzenAxisTitle Text="BSD" />
+                    </RadzenCategoryAxis>
+                </RadzenValueAxis>
+                <RadzenColumnSeries Data="@makeBarGraphHappy" TItem="Athlete" Title="Squat" ValueProperty="Squat" />
+                <RadzenValueAxis Min="0" Max="600" Step="100" />
+                <RadzenColumnSeries Data="@makeBarGraphHappy" TItem="Athlete" Title="Deadlift" ValueProperty="Deadlift" />
+                <RadzenValueAxis Min="0" Max="600" Step="100" />
+            </RadzenChart>
+            <button class="ui-button p-2 mr-1" @onclick="@AddAthlete">Add New Athlete</button>
+            <button class="ui-button p-2 mr-1" @onclick="@EditAthlete">Edit Athlete</button>
+
+        </RadzenCard>
+
+        <AddAthleteDialog @ref="AddAthleteDialog"></AddAthleteDialog>
+
+        <CascadingValue Value="@currentAth.Id" Name="AthID">
+            <EditAthleteDialog @ref="EditAthleteDialog" CloseEventCallback="@AthleteDialog_OnDialogClose"></EditAthleteDialog>
+        </CascadingValue>
+
+        <AddAppointment @ref="AddAppointmentDialog" CloseEventCallback="@AddAppointmentDialog_OnDialogClose"></AddAppointment>
+
+
+        <CascadingValue Value="@currentAthleteName">
+            <CascadingValue Value="@currentAptId" Name="ApptID">
+                <EditAppointment @ref="EditAppointmentDialog" CloseEventCallback="@AddAppointmentDialog_OnDialogClose"></EditAppointment>
+            </CascadingValue>
+        </CascadingValue>
+        <Report @ref="ReportDialog"></Report>
+    </div>
+</div>
+@using PowerScheduler.Shared
+@using PowerScheduler.Services
+@using AthleteScheduler.Data.Entities
+@using Microsoft.AspNetCore.Components;
+

@@ -1,0 +1,53 @@
+﻿@inherits EditAppointmentBase
+@if (ShowDialog)
+{
+    <div class="modal fade show d-block" id="exampleModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="titleLabel">Edit Appointment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" @onclick="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="alert @StatusClass">@Message</div>
+                    <EditForm Model="@Appointment" OnValidSubmit="HandleValidSubmit">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary />
+                        <div class="form-group row">
+                            <label for="athlete" class="col-sm-2 col-form-label">
+                                Athlete's Name: @AthName
+                            </label>
+                        </div>
+                        <div class="form-group row">
+                            <label for="start" class="col-sm-2 col-form-label">
+                                Start:
+                            </label>
+                            <div class="col-sm-10">
+                                <RadzenDatePicker @ref="aptstart" @bind-Value="@Appointment.Start" ShowTime="true"></RadzenDatePicker>
+
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="end" class="col-sm-2 col-form-label">
+                                End:
+                            </label>
+                            <div class="col-sm-10">
+                                <RadzenDatePicker @ref="aptend" @bind-Value="@Appointment.End" ShowTime="true"></RadzenDatePicker>
+                            </div>
+                        </div>
+                        <RadzenButton ButtonType="Radzen.ButtonType.Submit" Text="Save" />
+                        @if (Appointment.Id > 0)
+                        {
+                            <a class="btn btn-danger" @onclick="@DeleteAppointmentAsync">
+                                Delete
+                            </a>
+                        }
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+}
